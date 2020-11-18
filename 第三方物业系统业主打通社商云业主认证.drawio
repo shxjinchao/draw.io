@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T14:13:44.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" version="13.6.6" etag="oXGQZVOzA4mrIGAtz4_o" type="github"><diagram id="EHkSzHXBUlxo8LbmBfEm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-18T14:37:34.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="f5NqGMmn_4sQmNUWXqsP" version="13.6.6" type="github">
+  <diagram id="EHkSzHXBUlxo8LbmBfEm" name="第 1 页">
+    <mxGraphModel dx="1278" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3brpsV6rv2TogI0LSsHz-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="735" height="800" as="geometry">
+            <mxRectangle x="220" y="40" width="30" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-2" value="第三方系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-1">
+          <mxGeometry x="20" width="230" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-5" value="开始同步业主信息" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-2">
+          <mxGeometry x="60" y="70" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-36" value="同步业主信息结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-2">
+          <mxGeometry x="30" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-3" value="基础数据对接第三方平台" style="swimlane;html=1;startSize=20;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-1">
+          <mxGeometry x="250" width="245" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.483;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3brpsV6rv2TogI0LSsHz-3" source="3brpsV6rv2TogI0LSsHz-6" target="3brpsV6rv2TogI0LSsHz-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-20" value="导入会员结果处理" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-3">
+          <mxGeometry x="70" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-6" value="导入业主信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-3">
+          <mxGeometry x="61" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-38" value="创建业主信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-3">
+          <mxGeometry x="63" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-4" value="社商云会员中心" style="swimlane;html=1;startSize=20;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-1">
+          <mxGeometry x="495" width="240" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3brpsV6rv2TogI0LSsHz-4" source="3brpsV6rv2TogI0LSsHz-10" target="3brpsV6rv2TogI0LSsHz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-23" value="抛出会员已存在异常" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-4">
+          <mxGeometry x="50" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3brpsV6rv2TogI0LSsHz-4" source="3brpsV6rv2TogI0LSsHz-10" target="3brpsV6rv2TogI0LSsHz-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-32" value="已存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3brpsV6rv2TogI0LSsHz-31">
+          <mxGeometry x="-0.0078" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3brpsV6rv2TogI0LSsHz-4" source="3brpsV6rv2TogI0LSsHz-7" target="3brpsV6rv2TogI0LSsHz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-14" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-4">
+          <mxGeometry x="85" y="320" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-11" value="创建会员" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-4">
+          <mxGeometry x="50" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-10" value="判断会员是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-4">
+          <mxGeometry x="70" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3brpsV6rv2TogI0LSsHz-4" source="3brpsV6rv2TogI0LSsHz-14" target="3brpsV6rv2TogI0LSsHz-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="380" as="sourcePoint" />
+            <mxPoint x="645" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-7" value="导入会员信息" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-4">
+          <mxGeometry x="50" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3brpsV6rv2TogI0LSsHz-1" source="3brpsV6rv2TogI0LSsHz-5" target="3brpsV6rv2TogI0LSsHz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3brpsV6rv2TogI0LSsHz-1" source="3brpsV6rv2TogI0LSsHz-23" target="3brpsV6rv2TogI0LSsHz-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="3brpsV6rv2TogI0LSsHz-1" source="3brpsV6rv2TogI0LSsHz-11" target="3brpsV6rv2TogI0LSsHz-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-30" value="创建会员结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3brpsV6rv2TogI0LSsHz-29">
+          <mxGeometry x="-0.4339" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3brpsV6rv2TogI0LSsHz-1" source="3brpsV6rv2TogI0LSsHz-20" target="3brpsV6rv2TogI0LSsHz-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3brpsV6rv2TogI0LSsHz-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3brpsV6rv2TogI0LSsHz-1" source="3brpsV6rv2TogI0LSsHz-38" target="3brpsV6rv2TogI0LSsHz-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
