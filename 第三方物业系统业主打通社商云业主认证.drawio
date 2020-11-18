@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-18T15:58:42.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="KncNgIL52IKCLkhNj87k" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-18T15:59:23.335Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="q_9Js7G5uXyrRGl2jNaK" version="13.6.6" type="github">
   <diagram id="EHkSzHXBUlxo8LbmBfEm" name="第 1 页">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,7 +228,7 @@
         <mxCell id="3brpsV6rv2TogI0LSsHz-166" value="消费会员房间关系" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-53">
           <mxGeometry x="60" y="2050" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3brpsV6rv2TogI0LSsHz-54" value="各业务线" style="swimlane;html=1;startSize=20;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-42">
+        <mxCell id="3brpsV6rv2TogI0LSsHz-54" value="依赖会员房间关系业务系统" style="swimlane;html=1;startSize=20;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-42">
           <mxGeometry x="1450" width="240" height="2440" as="geometry" />
         </mxCell>
         <mxCell id="3brpsV6rv2TogI0LSsHz-169" value="消费会员房间关系" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="3brpsV6rv2TogI0LSsHz-54">
